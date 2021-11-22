@@ -53,7 +53,9 @@ namespace ClientProxy_P4_20190140129.ServiceReference1 {
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     public partial class MatematikaClient : System.ServiceModel.ClientBase<ClientProxy_P4_20190140129.ServiceReference1.IMatematika>, ClientProxy_P4_20190140129.ServiceReference1.IMatematika {
-        
+        public bool kode { get; internal set; }
+        public bool pesan { get; internal set; }
+
         public MatematikaClient() {
         }
         
